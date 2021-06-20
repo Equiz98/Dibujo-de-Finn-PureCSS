@@ -1,0 +1,115 @@
+.BgDibujo{
+    width: 450px;
+    height: 650px;
+    background-color: #00D6D2;
+    position: relative;
+}
+
+/*--------- CUERPO DE Finn --------*/
+.BrazosFinn{
+    background-color:#FFCDA2 ;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    border-radius: 25px 25px 0px 0px;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.PechoFinn{
+    background-color: #4373DF;
+    width:  100% ;
+    height: 50%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.EstomagoFinn{
+    background-color: #4373DF;
+    width: 80%;
+    height: 50%;
+    margin: 0px auto;
+
+}
+
+
+/* -----------CABEZA DE Finn----------- */
+
+.GorroFinn{
+    background-color: #fff;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    border-radius: 50% 50% 0 0;
+}
+
+.OrejaL{
+    background-color: #fff;
+    width: 25%;
+    height:225px;
+    border-radius: 100px;
+    position: absolute;
+    top: -20%;
+    
+}
+
+.OrejaR{
+    background-color: #fff;
+    width: 25%;
+    height:225px;
+    border-radius: 100px;
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    
+}
+
+.RostroFinn{
+    background-color: #FFCDA2;
+    width: 75%;
+    height: 45%;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    border-radius: 60%;
+}
+.Ojos{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 30%;
+    left: 7%;
+
+}
+
+.OjoL{
+    background-color: #000;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+}
+
+.OjoR{
+    background-color: #000;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px; 
+}
+
+.SonrisaFinn{
+   
+    width: 45px;
+    height: 12px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
